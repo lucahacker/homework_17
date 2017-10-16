@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Таблицы и формы</title>
+</head>
+<body>
+	<table border="10">
+		<caption>Таблица умножения</caption>
+		<thead>
+			<tr>
+				<th colspan="10">Таблица 10х10</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td style="font-weight: bold">9</td>
+				<td>9</td>
+				<td>18</td>
+				<td>27</td>
+				<td>36</td>
+				<td>45</td>
+				<td>54</td>
+				<td>63</td>
+				<td>72</td>
+				<td>81</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr style="font-weight: bold">
+				<td>x</td>
+				<td rowspan="2">1</td>
+				<td rowspan="2">2</td>
+				<td rowspan="2">3</td>
+				<td rowspan="2">4</td>
+				<td rowspan="2">5</td>
+				<td rowspan="2">6</td>
+				<td rowspan="2">7</td>
+				<td rowspan="2">8</td>
+				<td rowspan="2">9</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">1</td>
+				
+			</tr>
+			<tr>
+				<td style="font-weight: bold">2</td>
+				<td>2</td>
+				<td>4</td>
+				<td>6</td>
+				<td>8</td>
+				<td>10</td>
+				<td>12</td>
+				<td>14</td>
+				<td>16</td>
+				<td>18</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">3</td>
+				<td>3</td>
+				<td>6</td>
+				<td>9</td>
+				<td>12</td>
+				<td>15</td>
+				<td>18</td>
+				<td>21</td>
+				<td>24</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">4</td>
+				<td>4</td>
+				<td>8</td>
+				<td>12</td>
+				<td>16</td>
+				<td>20</td>
+				<td>24</td>
+				<td>28</td>
+				<td>32</td>
+				<td>36</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">5</td>
+				<td>5</td>
+				<td>10</td>
+				<td>15</td>
+				<td>20</td>
+				<td>25</td>
+				<td>30</td>
+				<td>35</td>
+				<td>40</td>
+				<td>45</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">6</td>
+				<td>6</td>
+				<td>12</td>
+				<td>18</td>
+				<td>24</td>
+				<td>30</td>
+				<td>36</td>
+				<td>42</td>
+				<td>48</td>
+				<td>54</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">7</td>
+				<td>7</td>
+				<td>14</td>
+				<td>21</td>
+				<td>28</td>
+				<td>35</td>
+				<td>42</td>
+				<td>49</td>
+				<td>56</td>
+				<td>63</td>
+			</tr>
+			<tr>
+				<td style="font-weight: bold">8</td>
+				<td>8</td>
+				<td>16</td>
+				<td>24</td>
+				<td>32</td>
+				<td>40</td>
+				<td>48</td>
+				<td>56</td>
+				<td>64</td>
+				<td>72</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<form>
+		Текст:<input type="text" name="Текстовое поле"> 
+		<label>
+			Пароль<input type="password" name="password">
+		</label>
+		<br>
+		Флаг <input type="checkbox" name="flag"> <input type="checkbox" name="flag">
+		<br>
+		Переключатель <input type="radio" name="per"> <input type="radio" name="per">
+		<br>
+		Загрузка файла <input type="file" name="zagr">
+		<br>
+		<input type="reset" name="sbros">
+		<br>
+		Кнопка отправки данных <input type="submit" name="otprv">
+		<br>
+		Кнопка <input type="button" name="button">
+		<br>
+		Email <input type="email" name="email">
+		<br>
+		Поле для поисковых запросов <input type="search" name="poisk">
+		<br>
+		Поле для номера телефона <input type="tel" name="tel">
+		<br>
+		Поле для URL адреса <input type="url" name="url">
+		<br>
+		Поле для чисел <input type="number" name="numb" min="1" max="10" step="1">
+		<br>
+		Ползунок <input type="range" name="range">
+	</form>
+</body>
+</html>
